@@ -1,3 +1,9 @@
+package model;
+
+import enums.EtatDeclaration;
+import enums.Role;
+import observer.Observer;
+
 import java.util.Date;
 
 public class Declaration {
@@ -20,7 +26,11 @@ public class Declaration {
 
     private Utilisateur utilisateur;
 
-    public Declaration(Date dateVol, String heureVol, Role roleUtilisateur, Utilisateur utilisateur) {
+    private ProprieteVolee proprieteVolee;
+
+    private Lieu lieu;
+
+    public Declaration(Date dateVol, String heureVol, Role roleUtilisateur, Utilisateur utilisateur, ProprieteVolee proprieteVolee, Lieu lieu) {
         this.roleUtilisateur = roleUtilisateur;
         this.identifiant = ++compteur;
         this.dateCreation = new Date();
@@ -29,11 +39,17 @@ public class Declaration {
         this.heureVol = heureVol;
         this.etat = EtatDeclaration.EN_COURS;
         this.utilisateur = utilisateur;
+        this.proprieteVolee = proprieteVolee;
+        this.lieu = lieu;
     }
 
     public void setEtat(EtatDeclaration nouvelEtat) {
         this.etat = nouvelEtat;
         this.derniereModifiaction = new Date();
+
+        if (nouvelEtat == EtatDeclaration.RESOLUE && utilisateur instanceof Observer) {
+            ((Observer) utilisateur).notifier("Votre déclaration #" + identifiant + " a été résolue.");
+        }
     }
 
     public EtatDeclaration getEtat() {
@@ -44,10 +60,12 @@ public class Declaration {
         return derniereModifiaction;
     }
 
-
     public Date getDateCreation() {
         return dateCreation;
     }
+
+    public int getIdentifiant() {
+        return identifiant;
+    }
+
 }
-
-

@@ -1,4 +1,10 @@
+package service;
+
+import enums.EtatDeclaration;
+import model.Declaration;
+
 public class AgentPolicier {
+    
     private String identifiant;
 
     private String motDePasse;
@@ -9,7 +15,7 @@ public class AgentPolicier {
     }
 
     public boolean authentifier(String identifiant, String motDePasse) {
-        if (this.identifiant.equals(identifiant) && this.motDePasse.equals(motDePasse)){
+        if (this.identifiant.equals(identifiant) && this.motDePasse.equals(motDePasse)) {
             System.out.println("Authentification réussie.");
             return true;
         }
@@ -24,5 +30,9 @@ public class AgentPolicier {
     public void modifierEtatDeclaration(Declaration declaration, EtatDeclaration nouvelEtat) {
         declaration.setEtat(nouvelEtat);
         System.out.println("État de la déclaration modifié à : " + nouvelEtat);
+    }
+
+    public String getIdentifiant() {
+        return identifiant;
     }
 }
