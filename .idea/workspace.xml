@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec33dd6a-c212-4900-b82a-bd4e1c2252ba" name="Changes" comment="Unit test">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Diagramme d'États-Transitions - Agent Policier (Session).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Diagramme d'États-Transitions - Déclaration de Vol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Diagramme d'États-Transitions - Notification Victime.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Diagramme d'États-Transitions - Objet Trouvé.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Diagramme d'États-Transitions - Rapport Quotidien de Vol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Diagramme d'États-Transitions - Utilisateur Public (Victime Témoin).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Diagramme de Collaboration  Gestion RQV (Sauvegarde Déclaration).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Diagramme de Collaboration Pattern Observer (Objet Retrouvé).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/RQV et Système d'Objets Trouvés.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cas utilisation.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/class.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/declaration de vol.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Obi2Newbie&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Obi2Newbie/Rapports-Quotidiens-De-Vol.git&quot;,
+    &quot;accountId&quot;: &quot;a56c7469-8da6-4d4f-b09a-a776821408e3&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="38IVcW7t4yviBDrZ40GZuQsI1ks" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.AgentPolicierTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in main.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/india/OneDrive/Bureau/Kevin/Java/Rapports-Quotidiens-De-Vol&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="All in main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec33dd6a-c212-4900-b82a-bd4e1c2252ba" name="Changes" comment="" />
+      <created>1768487151622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768487151622</updated>
+      <workItem from="1768487152884" duration="575000" />
+      <workItem from="1768487845512" duration="537000" />
+      <workItem from="1768488404244" duration="836000" />
+      <workItem from="1768492275859" duration="1202000" />
+      <workItem from="1768506212314" duration="682000" />
+      <workItem from="1768507527381" duration="313000" />
+    </task>
+    <task id="LOCAL-00001" summary="Unit test">
+      <option name="closed" value="true" />
+      <created>1768506854928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768506854928</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit test" />
+  </component>
+</project>
